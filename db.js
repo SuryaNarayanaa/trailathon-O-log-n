@@ -1,3 +1,4 @@
+
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = "mongodb+srv://dbuser:12345@cluster0.kpdg1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
@@ -19,4 +20,3 @@ async function run() {
     await client.close();
   }
 }
-run().catch(console.dir);
